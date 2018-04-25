@@ -10,11 +10,11 @@ It adds support to load multiple CSV files stored in a directory into influxDB.
 ## Usage
 
 ```
-usage: csv-to-influxdb.py [-h] -i [INPUT] [-d [DELIMITER]] [-s [SERVER]]
+usage: csv-to-influxdb.py [-h]-ph [PATH] -i [INPUT] [-d [DELIMITER]] [-s [SERVER]]
                           [-u [USER]] [-p [PASSWORD]] --dbname [DBNAME]
                           [-m [METRICNAME]] [-tc [TIMECOLUMN]]
                           [-tf [TIMEFORMAT]] [--fieldcolumns [FIELDCOLUMNS]]
-                          [--tagcolumns [TAGCOLUMNS]] [-g] [-b BATCHSIZE]
+                          [--tagcolumns [TAGCOLUMNS]] [-g] [-b BATCHSIZE] -del [DELETEDDB]
 
 Csv to influxdb.
 
